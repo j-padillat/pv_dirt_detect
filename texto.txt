@@ -1,12 +1,11 @@
-1. Se supone que yo identifico las dimensiones del panel y tengo una relación cm-px.
-2. Se supone que yo se cuánto mide el robot largo y ancho.
-3. Se supone que puedo inicializar el robot en la esquina inferior izquierda, de tal manera que el punto que me da la posición es la esquina superior izquierda del robot.
-4. Como yo se que el cepillo mide 20cm puedo saber cuanto mide en pixeles.
-5. Al tener la medid en pixeles puedo establecer un rango posición - posicion+longitud.
-6. empiezo a iterar a medida que se me actualiza la posición y comparo si el punto está en el rango.
-7. si está limpio; si no sigo.
-Necesito saber la orientación si va hacia adelante atrás izquierda o derecha.
+Supuestos.
 
+1. Se identifican las dimensiones del panel y tengo una relación cm-px.
+2. Se tienen las medidas del robot largo y ancho.
+3. Se inicializa el robot en la esquina inferior izquierda, de tal manera que el punto que me da la posición es la esquina superior izquierda del robot.
+4. Al tener la medida en pixeles se establece un rango posición - posicion+longitud.
+5. Se itera a medida que se actualiza la posición y compara si el punto está en el rango.
+6. Si está sucio paro; si no, sigo.
 
 Inputs:
 
