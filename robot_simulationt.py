@@ -101,15 +101,23 @@ if __name__ == "__main__":
     
     print(tortuga.pos())
 
+
+    # DESCOMENTAR ESTO PARA LA IDENTIFICACION DE PUNTOS
+    '''
     #ventana.onclick(tortuga.goto)
     #ventana.onkey(ff, "space")
     #ventana.listen()
-
+    '''
     
     puntosSucios=[[52.00,-69.00],[-161.00,7.00],[-117.00,142.00]]
-    #for i in range(3):
-    #    puntoSucio.append([random.randint(-1/2*ancho_ventana,1/2*ancho_ventana),random.randint(-1/2*alto_ventana,1/2*alto_ventana)])
 
+    # DESCOMENTAR ESTO PARA LA IDENTIFICACION DE PUNTOS
+    '''
+    for i in range(3):
+        puntoSucio.append([random.randint(-1/2*ancho_ventana,1/2*ancho_ventana),random.randint(-1/2*alto_ventana,1/2*alto_ventana)])
+    '''
+
+    # COMENTAR TODA LA SECCION 'EL RECORRIDO' PARA LA IDENTIFICACION DE PUNTOS 
 
     # EL RECORRIDO
     retardo=20
